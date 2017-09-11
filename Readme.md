@@ -58,7 +58,8 @@ public class SalaryManager {
 - calculateTax메소드는 근로소득세를 연산하는 메소드
 - calculateNationalPension메소드는 국민연금세를 연산하는 메소드
 - calculateHealthInsurance메소드는 건강보험세를 연산하는 메소드
-- getMonthlySalary 메소드는 각각의 연산된 메소드들의 값을 호출받은후,
-변수에 담아 연산함.
-- 연산된 값들을 더한 값을 total변수에 담아, monthlySalary변수에서 빼주고
-return값으로 넘김.
+- getMonthlySalary 메소드는 calculateTax,calculateNationalPension,calculateHealthInsurance메소드에서
+리턴받은 값을 처리하는 메소드
+- 각 메소드들로 부터 리턴받은 값들을 근로소득세,국민연금세,건강보험세에 담고 다 더함
+-더한 값들은 total변수에 담아, monthlySalary변수에서 빼주고
+return값으로 넘김
