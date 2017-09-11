@@ -58,4 +58,4 @@ public class SalaryManager {
 - calculateTax메소드는 근로소득세를 연산하는 메소드
 - calculateNationalPension메소드는 국민연금세를 연산하는 메소드
 - calculateHealthInsurance메소드는 건강보험세를 연산하는 메소드
-- getMonthlySalary 메소드는 각각의 메소드들을 연산하여, 월급을 연산하는 메소드
+- getMonthlySalary 메소드는 각각의 연산된 메소들을 호출하여, 월급을 연산하는 메소드
